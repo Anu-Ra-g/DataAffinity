@@ -1,4 +1,4 @@
-# Description of Assginments and how to use them
+# Description of Assignments and how to use them
 
 ## Assignment 1
 
@@ -20,4 +20,9 @@ This is the list of SQL commands for the questions in the assignment. Query a, b
 
 This contains two bash scripts `asg3.sh` and `asg3-v1.sh` to parse the input in the `demo.txt` file and store it in a .tsv file.
 The difference between `asg3.sh` and `asg3-v1.sh` is that the former uses a loop for parsing through the input file, whereas the latter uses the `awk` command for faster execution. 
+
+To run the script, run the following commands in your terminal:-
+1. Run `chmod +x asg3.sh` to make the file executable.
+2. Run `./asg3.sh <input file>` to generate the `.tsv` file.
+   
 Similarly, this input file can be parsed into a ***json***file using a bash script.
